@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Antic Didone', serif;
+}
+
+
+
+.conteudo-principal {
+    width: 100%;
+    height: 100vh;
+    background-image: url(imagens/fundoprinc1.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-principal {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    font-weight: bold;
+    
+}
+
+.texto-principal .p1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 9%;
+    color: white;
+}
+
+
+.texto-principal h1 {
+    font-size: 100px;
+    
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.texto-principal p {
+    margin-left: 9%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.tt-cards {
+    height: 60px;
+    padding: 50px;
+    font-weight: bold;
+    
+}
+
+.tt-cards p {
+    font-size: 35px; 
+    text-align: center; 
+    
+    color: #E9BB8A;
+}
+
+.chamada {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.chamada a {
+    text-decoration: none;
+    color: black;
+}
+
+.call {
+    background: linear-gradient(353deg, rgba(210,212,218,1) 2%, rgba(233,187,138,1) 78%);
+    /*background-color: #e7c60ad2;*/
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.493);
+}
+
+.call a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+.card {
+    background-color:  white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 190px;
+    border: 3px solid #e9bb8ac4;
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.493);
+    border-radius: 15px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.card h2 {
+    margin-bottom: 2px;
+}
+
+
+#liplift {
+    width: 93%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    /*background-image: url(imagens/fundo-liplift-amarelo.png);
+    background-size: cover;*/
+    padding: 47px;
+    margin-right: 5%;
+}
+
+.exp-liplift {
+    text-align: justify;
+    width: 50%;
+    height: 400px;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.exp-liplift img {
+    margin-left: 20%;
+    border-radius: 5px;
+}
+
+.ft-liplift {
+    width: 50%;
+    margin-top: 20px;
+   background-image: url(imagens/liplift.JPG);
+    background-size: cover;   
+    margin-left: 10%;
+    border-radius: 30px;
+    height: 545px;
+}
+
+#resultados {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 100%;
+    background-color: #D2D4DA;
+    
+}
+
+.resultado-01 {
+    background-image: url(imagens/lip-01.JPG);
+    background-size: cover; 
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.493);
+}
+
+.resultado-02 {
+    background-image: url(imagens/lip-02.JPG);
+    background-size: cover; 
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.493);
+}
+
+.resultado-03 {
+    background-image: url(imagens/lip-03.JPG);
+    background-size: cover; 
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.493);
+}
+
+.resultado-04 {
+    background-image: url(imagens/lip-04.JPG);
+    background-size: cover; 
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.493);
+}
+
+#vivianvalentim {
+    width: 100%;
+}
+
+.txt-vivian {
+    width: 50%;
+    height: 500px;
+    font-size: 18px;
+}
+
+.rodape-maior {
+    width: 100%;
+    background-color: #e9bb8a7c;
+    display: flex;
+    flex-direction: row;
+}
+
+.rodape-esquerda {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.rodape-esquerda span {
+    width: 200px;
+    height: 40px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.rodape-esquerda img {
+    width: 35px;
+    height: 30px;
+    padding: 20px;
+}
+
+.rodape-esquerda address {
+    font-size: 10px;
+    margin-left: 2%;
+}
+
+.rodape-direita {
+    width: 50%;
+}
+
+.rodape-direita img {
+    width: 70%;
+    padding: 30px;
+    margin-left: 10%;
+    border-radius: 45%;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    background-color: #e9bb8a7c;
+    height: 45px;
+}
+
+/* ------------------------------------------------ SITE RESPONSIVO ----------------------------------------------*/
+@media only screen and (min-width: 200px) and (max-width: 480px) { 
+
+   
+
+    main {
+        width: 100vw;
+        
+    }
+
+    .conteudo-principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-image: url(imagens/fundoprinc.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        height: 700px;
+    }
+
+    .call { 
+        margin-top: 40px;
+    }
+
+    .texto-principal {
+        width: 95%;
+        text-align: justify;
+    }
+
+    .texto-principal h1 {
+        color:  rgba(227, 233, 138, 0.829); 
+        font-size: 70px;
+    }
+
+    .texto-principal .p1 {
+        margin-left: 5px;
+        font-size: 25px;
+        padding: 10px;
+        text-align: center; 
+        color:  rgba(227, 233, 138, 0.829);         
+    }
+
+    .texto-principal p {
+        margin-left: 10px;
+        font-size: 15px;
+        padding: 0px;
+        text-align: center;
+        color:  rgba(227, 233, 138, 0.829); 
+    }
+
+    #liplift {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0px;
+        margin-right: 0px;
+        height: auto;
+        margin-top: 20px;
+        
+    }
+
+    #liplift h2 {
+        text-align: center;
+    }
+
+    .exp-liplift {
+        align-items: center;
+        width: auto; 
+        height: auto;  
+
+    }
+
+    .exp-liplift img {
+        margin-left: 12%;
+    }
+
+    .exp-liplift > span {
+        text-align: center;
+    }
+
+    .ft-liplift {
+        height: 540px;
+        background-image: url(imagens/liplift-peq.JPG);
+        background-size: cover;
+        background-position: top center;
+        width: 100%;
+        padding: 0px;
+        margin-left: 0px;
+        border-radius: 5px;
+    }
+
+    .chamada {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .tt-cards {
+        margin-bottom: 10px;
+        margin-top: 100px;
+        padding: 0px;
+        margin-left: 0px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+    }
+
+    .chamada a {
+        margin-top: 10px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+    .card {
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+
+    .rodape-maior {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .rodape-esquerda {
+        margin-bottom: 0px;
+    }
+
+    .foot {
+        width: 100%;
+    }
+}
