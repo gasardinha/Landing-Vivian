@@ -439,6 +439,10 @@ main {
         margin-bottom: 0px;
     }
 
+    .rodape-direita {
+        display: none;
+    }
+
     .foot {
         width: 100%;
     }
