@@ -285,7 +285,7 @@ main {
 @media only screen and (min-width: 200px) and (max-width: 480px) { 
     body {
         width: 100%;
-        padding: 5px;
+        
     }
   
     main {
@@ -312,6 +312,7 @@ main {
     }
 
     .texto-principal {
+        margin-top: 50%;
         width: 95%;
         text-align: justify;
     }
@@ -322,9 +323,9 @@ main {
     }
 
    .p1 {
-    margin-top: 20px;
+        margin-top: 20px;
         width: 90%;
-        margin-left: 5px;
+        
         font-size: 20px;
         text-align: center; 
         height: 100px;
@@ -351,7 +352,7 @@ main {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 90%;
         padding: 0px;
         margin-right: 0px;
         height: auto;
@@ -372,7 +373,7 @@ main {
     }
 
     .exp-liplift img {
-        margin-left: 12%;
+        margin-left: 25%;
     }
 
     .exp-liplift > span {
