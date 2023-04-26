@@ -299,9 +299,9 @@ main {
         align-items: center;
         text-align: justify;
         width: 100%;
-        background-image: url(imagens/fundoprinc.png);
+        background-image: url(imagens/teste.png);
         background-position: top;
-        background-repeat: no-repeat;
+        
         background-size: cover;
         color: white;
         height: 600px;
@@ -352,12 +352,12 @@ main {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 90%;
+        width: 100%;
         padding: 0px;
         margin-right: 0px;
         height: auto;
         margin-top: 20px;
-        
+        background-color: #e9bb8a7c;
     }
 
     #liplift h2 {
@@ -370,6 +370,7 @@ main {
         height: auto;  
         font-size: 12px;
         font-weight: normal;
+        width: 90%;
     }
 
     .exp-liplift img {
