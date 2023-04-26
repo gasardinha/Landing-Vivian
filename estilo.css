@@ -171,6 +171,7 @@ main {
     align-items: center;
     margin-right: 5%;
     color: #694f33;
+    font-family: 'Antic Didone', serif;
 }
 
 .exp-liplift {
@@ -180,6 +181,7 @@ main {
     font-size: 18px;
     font-weight: bold;
     justify-content: center;
+    font-weight: normal;
 }
 
 .exp-liplift img {
@@ -365,7 +367,8 @@ main {
         align-items: center;
         width: auto; 
         height: auto;  
-        font-size: 10px;
+        font-size: 12px;
+        font-weight: normal;
     }
 
     .exp-liplift img {
