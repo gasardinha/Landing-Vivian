@@ -161,7 +161,7 @@ main {
 
 #liplift {
     width: 90%;
-    height: 1300px;
+    height: 1600px;
     display: flex;
     flex-direction: column;
     /*background-image: url(imagens/fundo-liplift-amarelo.png);
@@ -169,7 +169,7 @@ main {
     padding: 47px;
     justify-content: center;
     align-items: center;
-    margin-right: 5%;
+    
     color: #694f33;
     font-family: 'Antic Didone', serif;
 }
@@ -177,7 +177,7 @@ main {
 .exp-liplift {
     text-align: justify;
     width: 90%;
-    height: 900px;
+    height: 1000px;
     font-size: 18px;
     font-weight: bold;
     justify-content: center;
@@ -198,7 +198,7 @@ main {
     background-image: url(imagens/liplift.JPG);
     background-size: cover;   
     border-radius: 30px;
-    height: 600px;
+    height: 900px;
 }
 
 #resultados {
@@ -319,7 +319,7 @@ main {
 
     .texto-principal .testett {
         color:  white; 
-        font-size: 70px;
+        font-size: 67px;
     }
 
    .p1 {
