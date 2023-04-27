@@ -484,7 +484,7 @@ main {
         display: flex;
         flex-direction: column;
         margin-bottom: 0px;
-        height: 800px;
+        height: 550px;
     }
 
     .rodape-esquerda {
@@ -506,5 +506,6 @@ main {
     .foot {
         width: 100%;
         height: 80px;
+        position: relative;
     }
 }
