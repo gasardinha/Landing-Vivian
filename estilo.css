@@ -28,6 +28,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 .conteudo-principal {
@@ -60,6 +61,7 @@ main {
     color: #694f33;
     width: 100%;
     height: 200px;
+    background-color: white;
     
 }
 
@@ -71,6 +73,7 @@ main {
     height: 50px;
     text-align: center;
     margin-right: 2%;
+    
 }
 
 .texto-principal .testett {
@@ -79,6 +82,7 @@ main {
     text-align: justify;
     color: white;
     margin-left: 0%;
+    
 }
 
 .texto-principal p {
@@ -94,7 +98,8 @@ main {
     height: 60px;
     padding: 50px;
     font-weight: bold;
-    
+    width: auto;
+    background-color: white;
 }
 
 .tt-cards p {
@@ -105,12 +110,13 @@ main {
 }
 
 .chamada {
-    width: 95%;
+    width: 85%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 30px;
-    margin-bottom: 30px;
+    height: 250px;
+    background-color: white;
     
 }
 
@@ -161,7 +167,7 @@ main {
 
 #liplift {
     width: 90%;
-    height: 1610px;
+    height: 950px;
     display: flex;
     flex-direction: column;
     /*background-image: url(imagens/fundo-liplift-amarelo.png);
@@ -192,13 +198,43 @@ main {
     margin-left: 25%;
 }
 
+.fotos-casos {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 100px;
+}
+
 .ft-liplift {
-    width: 50%;
-    margin-top: 20px;
-    background-image: url(imagens/liplift.JPG);
+    width: 48%;
+    /*background-image: url(imagens/lip01-red.JPG);
     background-size: cover;   
-    border-radius: 30px;
-    height: 900px;
+    border-radius: 30px;*/
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.ft-liplift img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.493);
+}
+
+.ft-liplift1 {
+    margin-left: 2%;
+    margin-top: 20px;
+    width: 48%;
+    height: 500px;
+}
+
+.ft-liplift1 img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.493);
 }
 
 #resultados {
@@ -285,11 +321,12 @@ main {
 @media only screen and (min-width: 200px) and (max-width: 480px) { 
     body {
         width: 100%;
-        
+        height: 100%;
     }
   
     main {
         width: 100vw;
+        height: 100%;
     }
 
     .conteudo-principal {
@@ -301,7 +338,6 @@ main {
         width: 100%;
         background-image: url(imagens/teste.png);
         background-position: top;
-        
         background-size: cover;
         color: white;
         height: 600px;
@@ -355,9 +391,10 @@ main {
         width: 100%;
         padding: 0px;
         margin-right: 0px;
-        height: auto;
+        height: 750px;
         margin-top: 20px;
         background-color: #e9bb8a7c;
+        border-radius: 3px;
     }
 
     #liplift h2 {
@@ -382,14 +419,27 @@ main {
     }
 
     .ft-liplift {
-        height: 540px;
-        background-image: url(imagens/liplift-peq.JPG);
+        height: 400px;
+        /*background-image: url(imagens/liplift-peq.JPG);
         background-size: cover;
-        background-position: top center;
+        background-position: top center;*/
         width: 100%;
         padding: 0px;
         margin-left: 0px;
         border-radius: 5px;
+        margin-bottom: 0px;
+    }
+
+    .fotos-casos {
+        display: flex;
+        flex-direction: column;
+        width: 92%;
+        height: 700px;
+        margin-bottom: 0px;
+    }
+
+    .ft-liplift1 {
+        width: 100%;
     }
 
     .chamada {
@@ -400,11 +450,12 @@ main {
         justify-content: center;
         align-items: center;
         width: 100%;
+        height: auto;
     }
 
     .tt-cards {
         margin-bottom: 10px;
-        margin-top: 100px;
+        
         padding: 0px;
         margin-left: 0px;
         font-family: 'Montserrat', sans-serif;
@@ -433,10 +484,19 @@ main {
         display: flex;
         flex-direction: column;
         margin-bottom: 0px;
+        height: 500px;
     }
 
     .rodape-esquerda {
         margin-bottom: 0px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .rodape-esquerda .icone {
+        width: 50%;
+        margin-top: 20px;
+        height: 120px;
     }
 
     .rodape-direita img {
@@ -445,5 +505,6 @@ main {
 
     .foot {
         width: 100%;
+        height: 80px;
     }
 }
