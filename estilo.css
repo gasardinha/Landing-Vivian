@@ -391,7 +391,7 @@ main {
         width: 100%;
         padding: 0px;
         margin-right: 0px;
-        height: 750px;
+        height: 800px;
         margin-top: 20px;
         background-color: #e9bb8a7c;
         border-radius: 3px;
@@ -427,7 +427,8 @@ main {
         padding: 0px;
         margin-left: 0px;
         border-radius: 5px;
-        margin-bottom: 0px;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
 
     .fotos-casos {
