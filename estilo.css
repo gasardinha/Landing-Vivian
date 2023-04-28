@@ -395,6 +395,7 @@ main {
         margin-top: 20px;
         background-color: #e9bb8a7c;
         border-radius: 3px;
+        margin-bottom: 20px;
     }
 
     #liplift h2 {
@@ -437,11 +438,12 @@ main {
         width: 92%;
         height: 750px;
         margin-bottom: 0px;
-        margin-top: 35px;
+        margin-top: 60px;
     }
 
     .ft-liplift1 {
         width: 100%;
+        margin-top: 20px;
     }
 
     .chamada {
