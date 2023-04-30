@@ -126,7 +126,6 @@ main {
 
 .call {
     background: linear-gradient(353deg, rgba(210,212,218,1) 2%, rgba(233,187,138,1) 78%);
-    /*background-color: #e7c60ad2;*/
     height: 30px;
     display: flex;
     justify-content: center;
@@ -177,8 +176,6 @@ main {
     height: 950px;
     display: flex;
     flex-direction: column;
-    /*background-image: url(imagens/fundo-liplift-amarelo.png);
-    background-size: cover;*/
     padding: 47px;
     justify-content: center;
     align-items: center;
@@ -218,9 +215,6 @@ main {
 
 .ft-liplift {
     width: 48%;
-    /*background-image: url(imagens/lip01-red.JPG);
-    background-size: cover;   
-    border-radius: 30px;*/
     height: 400px;
     margin-bottom: 20px;
 }
@@ -438,9 +432,6 @@ main {
 
     .ft-liplift {
         height: 400px;
-        /*background-image: url(imagens/liplift-peq.JPG);
-        background-size: cover;
-        background-position: top center;*/
         width: 100%;
         padding: 0px;
         margin-left: 0px;
